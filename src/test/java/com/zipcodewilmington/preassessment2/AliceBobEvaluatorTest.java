@@ -11,7 +11,7 @@ public class AliceBobEvaluatorTest {
     public void testLeon() {
         // Given
         String input = "Leon";
-        AliceBobEvaluator abc = new AliceBobEvaluator(input);
+        AliceBobEnum.AliceBobEvaluator abc = new AliceBobEnum.AliceBobEvaluator(input);
 
         // When
         boolean isAlice = abc.isAlice();
@@ -61,6 +61,7 @@ public class AliceBobEvaluatorTest {
 
         // When
         boolean isAlice = abc.isAlice();
+        System.out.println(isAlice);
         boolean isBob = abc.isBob();
 
         // Then

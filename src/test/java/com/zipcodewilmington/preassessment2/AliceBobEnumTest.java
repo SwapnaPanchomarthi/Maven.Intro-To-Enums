@@ -7,10 +7,12 @@ import org.junit.Test;
  * Created by leon on 3/4/18.
  */
 public class AliceBobEnumTest {
+
     @Test
     public void testAliceName() {
         // Given
         AliceBobEnum alice = AliceBobEnum.ALICE;
+        //NameEnum alice=NameEnum.ALICE;
         String expected = "ALICE";
 
         // When
@@ -25,6 +27,7 @@ public class AliceBobEnumTest {
     public void testBobName() {
         // Given
         AliceBobEnum bob = AliceBobEnum.BOB;
+       // NameEnum bob = NameEnum.BOB;
         String expected = "BOB";
 
         // When
@@ -33,13 +36,14 @@ public class AliceBobEnumTest {
         // Then
         Assert.assertEquals(expected, actual);
     }
-
-
-
+//
+//
+//
     @Test
     public void testAliceCatchPhrase() {
         // Given
         AliceBobEnum alice = AliceBobEnum.ALICE;
+        //NameEnum alice=NameEnum.ALICE;
         String expected = "Hey, my name is ALICE!";
 
         // When
